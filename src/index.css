@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Estilos globales === */
+html,
+body {
+  @apply bg-gray-50 text-gray-900 scroll-smooth;
+}
+
+h1, h2, h3, h4 {
+  @apply font-bold text-blue-900;
+}
+
+a {
+  @apply transition-colors duration-300;
+}
