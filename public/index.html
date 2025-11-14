@@ -1,38 +1,77 @@
 <!DOCTYPE html>
-<html lang="es">
-
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
+
+  <!-- Título SEO -->
+  <title>HHO Ascensores y Malacates | Fabricación, Instalación y Mantenimiento</title>
+
+  <!-- Descripción SEO -->
   <meta name="description"
-    content="HHO se especializada en la fabricación de montacargas, malacates y ascensores de calidad. Ofrecemos soluciones de elevación seguras y eficientes." />
+    content="HHO fabrica e instala ascensores, malacates y montacargas personalizados para uso residencial, comercial e industrial. 20 años de experiencia en soluciones de elevación seguras y certificadas." />
+
+  <!-- Palabras Clave -->
+  <meta name="keywords"
+    content="ascensores, malacates, montacargas, elevadores industriales, ascensores residenciales, montacargas industriales, fabricación de ascensores, Medellín, Colombia" />
+
+  <!-- SEO Técnico -->
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="es" />
+  <meta name="author" content="HHO Ascensores y Malacates" />
+
+  <!-- OPEN GRAPH (para compartir en redes y WhatsApp) -->
+  <meta property="og:title" content="HHO Ascensores y Malacates" />
+  <meta property="og:description"
+    content="Fabricación e instalación de ascensores y malacates personalizados con 20 años de experiencia." />
+  <meta property="og:image" content="%PUBLIC_URL%/assets/og-image.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_CO" />
+  <meta property="og:url" content="https://TU_DOMINIO.com" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="HHO Ascensores y Malacates" />
+  <meta name="twitter:description"
+    content="Expertos en elevación industrial y residencial en Colombia." />
+  <meta name="twitter:image" content="%PUBLIC_URL%/assets/og-image.jpg" />
+
+  <!-- ICONOS -->
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+
+  <!-- MANIFEST -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-  <title>HHO Ascensores y Montacargas</title>
-
-  <!-- Google tag (gtag.js) -->
+  <!-- GOOGLE ANALYTICS -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-28YPXFH4HZ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-28YPXFH4HZ');
+  </script>
+
+  <!-- SEO: Datos estructurados JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "HHO Ascensores y Malacates",
+    "description": "Fabricación, instalación y mantenimiento de ascensores, montacargas y malacates personalizados.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Medellín",
+      "addressRegion": "Antioquia",
+      "addressCountry": "CO"
+    },
+    "telephone": "+57 321 7639431",
+    "image": "%PUBLIC_URL%/assets/og-image.jpg",
+    "url": "https://TU_DOMINIO.com",
+    "serviceArea": {
+      "@type": "Place",
+      "name": "Colombia"
+    }
+  }
   </script>
 </head>
 
