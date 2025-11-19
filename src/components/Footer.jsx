@@ -40,7 +40,7 @@ export default function Footer() {
           <div className="flex items-center gap-3 mb-3">
             <MessageCircle  size={20} />            
             <a
-              href="https://wa.me/573217639431"
+              href="https://wa.me/573217639431?text=Hola%20como%20estas,%20quiero%20más%20información"
               className="hover:text-white transition"
               target="_blank"
               rel="noopener noreferrer"
